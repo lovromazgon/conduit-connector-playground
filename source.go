@@ -1,4 +1,4 @@
-package connectorname
+package playground
 
 import (
 	"context"

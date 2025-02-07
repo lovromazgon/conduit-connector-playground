@@ -1,4 +1,4 @@
-module github.com/conduitio/conduit-connector-connectorname
+module github.com/lovromazgon/conduit-connector-playground
 
 go 1.23.2
 

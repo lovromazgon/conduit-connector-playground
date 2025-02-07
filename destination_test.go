@@ -1,16 +1,16 @@
-package connectorname_test
+package playground_test
 
 import (
 	"context"
 	"testing"
 
-	connectorname "github.com/conduitio/conduit-connector-connectorname"
+	playground "github.com/lovromazgon/conduit-connector-playground"
 	"github.com/matryer/is"
 )
 
 func TestTeardown_NoOpen(t *testing.T) {
 	is := is.New(t)
-	con := connectorname.NewDestination()
+	con := playground.NewDestination()
 	err := con.Teardown(context.Background())
 	is.NoErr(err)
 }
