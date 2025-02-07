@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
 
       - name: Check Connector Tag
-        uses: conduitio/automation/actions/check_connector_tag@3ed680ca27f329bb777c34768d12cffcc5ed8183
+        uses: conduitio/automation/actions/check_connector_tag@2f81bd4aa590e3d771945747fb4580889705b301
 
       - name: Set up Go
         uses: actions/setup-go@v5
